@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f0f4f8"/>
+    </linearGradient>
+    <linearGradient id="shield3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+    <filter id="shadow3" x="-10%" y="-5%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#6366f1" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- White bg: 942x942, centered, 41px transparent margin each side -->
+  <rect x="41" y="41" width="942" height="942" rx="166" fill="url(#bg3)"/>
+
+  <!--
+    Shield expanded to fill ~85% of the white bg area
+    White bg inner area: x=41~983, y=41~983 (942px)
+    Shield should span roughly x=100~924, y=80~944
+  -->
+  <path d="M512 88
+           L900 240
+           L900 530
+           Q900 780 512 944
+           Q124 780 124 530
+           L124 240
+           Z"
+        fill="url(#shield3)" filter="url(#shadow3)"/>
+
+  <!-- White </> code symbol, centered in shield -->
+  <!-- < bracket -->
+  <polyline points="388,420 268,512 388,604"
+            fill="none" stroke="white" stroke-width="72"
+            stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- / slash -->
+  <line x1="560" y1="388" x2="464" y2="636"
+        stroke="white" stroke-width="72" stroke-linecap="round"/>
+  <!-- > bracket -->
+  <polyline points="636,420 756,512 636,604"
+            fill="none" stroke="white" stroke-width="72"
+            stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

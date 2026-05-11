@@ -1,0 +1,42 @@
+{
+  "title": "设置",
+  "llm": {
+    "title": "LLM 配置",
+    "provider": "提供商",
+    "model": "模型",
+    "apiKey": "API 密钥",
+    "baseUrl": "基础 URL",
+    "baseUrlHint": "（可选代理）",
+    "temperature": "温度",
+    "maxTokens": "最大令牌数",
+    "testConnection": "测试连接",
+    "connected": "已连接",
+    "outputLanguage": "输出语言",
+    "outputLanguageHint": "LLM 审查输出的语言",
+    "fetchModels": "获取模型",
+    "remoteModelsLoaded": "已从 API 加载 {{count}} 个模型",
+    "noModelsFound": "未找到可用模型，请检查 API Key 和 Base URL。",
+    "fetchModelsFailed": "获取模型失败，请检查网络连接。",
+    "mustFetchModels": "请先点击「获取模型」加载可用模型列表。",
+    "clickToFetch": "点击「获取模型」加载可用模型",
+    "providerAnthropic": "Anthropic",
+    "providerOpenAI": "OpenAI",
+    "languageEnglish": "English",
+    "languageChinese": "中文"
+  },
+  "ui": {
+    "title": "界面",
+    "theme": "主题",
+    "themeSystem": "跟随系统",
+    "themeLight": "浅色",
+    "themeDark": "深色",
+    "diffMode": "差异模式",
+    "diffUnified": "统一",
+    "diffSplit": "分栏"
+  },
+  "save": "保存设置",
+  "saveSuccess": "设置保存成功",
+  "loading": "加载中...",
+  "restartApp": "重启应用",
+  "restartHint": "重启应用以解决异常或应用更改"
+}

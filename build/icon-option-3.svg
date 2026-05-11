@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="shield3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#bg3)"/>
+  <!-- Shield shape -->
+  <path d="M512 160 L820 280 L820 520 Q820 730 512 880 Q204 730 204 520 L204 280 Z"
+        fill="url(#shield3)"/>
+  <!-- Code </> inside shield (white) -->
+  <polyline points="400,440 310,512 400,584" fill="none" stroke="white" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="548" y1="416" x2="476" y2="608" stroke="white" stroke-width="64" stroke-linecap="round"/>
+  <polyline points="624,440 714,512 624,584" fill="none" stroke="white" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

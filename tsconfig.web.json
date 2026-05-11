@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./out",
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["./src/shared/*"],
+      "@renderer/*": ["./src/renderer/src/*"]
+    }
+  },
+  "include": [
+    "src/renderer/src/**/*",
+    "src/renderer/src/**/*.json",
+    "src/shared/**/*"
+  ]
+}

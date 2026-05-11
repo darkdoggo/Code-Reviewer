@@ -1,0 +1,88 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "totalReviews": "Total Reviews",
+    "issuesFound": "Issues Found",
+    "avgScore": "Avg Score",
+    "addFirstProject": "Add Your First Project",
+    "manageProjects": "Manage Projects",
+    "startReview": "Start Review",
+    "recentReviews": "Recent Reviews",
+    "loading": "Loading...",
+    "noReviews": "No reviews yet. Start your first review!",
+    "unknown": "Unknown"
+  },
+  "projects": {
+    "title": "Projects",
+    "createNew": "Create New Project",
+    "noProjects": "No projects found",
+    "addProject": "Add Project",
+    "emptyHint": "No projects yet. Add a local git repository to get started.",
+    "notGitRepo": "Selected directory is not a git repository.",
+    "deleteConfirm": "Delete this project and all its reviews?",
+    "review": "Review",
+    "lastReview": "Last review {{time}}",
+    "loading": "Loading...",
+    "addRemote": "Add Remote",
+    "remoteUrl": "Repository URL",
+    "remoteUrlPlaceholder": "https://github.com/owner/repo",
+    "repoType": "Repository Type",
+    "github": "GitHub",
+    "gitlab": "GitLab",
+    "refreshing": "Refreshing...",
+    "refresh": "Refresh",
+    "cloning": "Cloning repository, this may take a moment...",
+    "invalidUrl": "Please enter a valid URL (e.g. https://github.com/owner/repo)",
+    "authError": "Authentication required. Configure git credentials first:\n1. Open Terminal\n2. Run: git config --global credential.helper store\n3. Clone the repo manually once to save credentials\n4. Then add it here",
+    "timeoutError": "Connection timeout. This repository may require authentication or be unreachable. Please configure git credentials if it's a private repository.",
+    "repoNotFound": "Repository not found. Please check the URL.",
+    "networkError": "Network error. Please check your connection and try again.",
+    "cloneError": "Clone failed: {{error}}",
+    "remoteHint": "For private repositories, select an authentication method above",
+    "credentialsTitle": "Credentials (optional, for private repos)",
+    "authMethod": "Authentication",
+    "authNone": "None (public repository)",
+    "authGithubToken": "Personal Access Token",
+    "authGitlabToken": "Access Token",
+    "authUserPass": "Username & Password",
+    "username": "Username",
+    "password": "Password",
+    "githubTokenPlaceholder": "ghp_xxxxxxxxxxxx",
+    "gitlabTokenPlaceholder": "glpat-xxxxxxxxxxxx",
+    "githubTokenHint": "Generate at GitHub → Settings → Developer settings → Personal access tokens",
+    "gitlabTokenHint": "Generate at GitLab → Preferences → Access Tokens"
+  },
+  "review": {
+    "title": "Code Review",
+    "startReview": "Start Review",
+    "reviewInProgress": "Review in Progress"
+  },
+  "history": {
+    "title": "Review History",
+    "loading": "Loading...",
+    "noReviews": "No reviews yet.",
+    "unknown": "Unknown"
+  },
+  "settings": {
+    "title": "Settings",
+    "general": "General",
+    "advanced": "Advanced"
+  },
+  "learning": {
+    "title": "Learning Center",
+    "description": "Cross-stack knowledge base and common issues",
+    "searchPlaceholder": "Search topics...",
+    "refresh": "Refresh",
+    "categories": {
+      "security": "Security",
+      "performance": "Performance",
+      "architecture": "Architecture",
+      "type-safety": "Type Safety",
+      "code-quality": "Code Quality",
+      "complexity": "Complexity",
+      "robustness": "Robustness"
+    },
+    "fullstackTips": "Full-stack Tips",
+    "readMore": "Read more"
+  }
+}

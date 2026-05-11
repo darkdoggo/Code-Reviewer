@@ -1,0 +1,89 @@
+{
+  "dashboard": {
+    "title": "仪表盘",
+    "totalReviews": "总审查数",
+    "issuesFound": "发现问题",
+    "avgScore": "平均分数",
+    "addFirstProject": "添加第一个项目",
+    "manageProjects": "管理项目",
+    "startReview": "开始审查",
+    "recentReviews": "最近审查",
+    "loading": "加载中...",
+    "noReviews": "还没有审查记录。开始你的第一次审查吧！",
+    "unknown": "未知"
+  },
+  "projects": {
+    "title": "项目",
+    "createNew": "创建新项目",
+    "noProjects": "未找到项目",
+    "addProject": "添加项目",
+    "emptyHint": "暂无项目。添加一个本地 Git 仓库以开始使用。",
+    "notGitRepo": "所选目录不是 Git 仓库。",
+    "deleteConfirm": "删除此项目及其所有审查记录？",
+    "review": "审查",
+    "lastReview": "上次审查 {{time}}",
+    "loading": "加载中...",
+    "addRemote": "添加远程仓库",
+    "remoteUrl": "仓库 URL",
+    "remoteUrlPlaceholder": "https://github.com/owner/repo",
+    "repoType": "仓库类型",
+    "github": "GitHub",
+    "gitlab": "GitLab",
+    "refreshing": "刷新中...",
+    "refresh": "刷新",
+    "cloning": "正在克隆仓库，请稍候...",
+    "invalidUrl": "请输入有效的 URL（例如 https://github.com/owner/repo）",
+    "authError": "需要身份认证。请先配置 git 凭据：\n1. 打开终端\n2. 运行：git config --global credential.helper store\n3. 手动克隆该仓库一次以保存凭据\n4. 然后在此添加",
+    "timeoutError": "连接超时。该仓库可能需要身份认证或无法访问。如果是私有仓库，请先配置 git 凭据。",
+    "repoNotFound": "仓库未找到，请检查 URL 是否正确。",
+    "networkError": "网络错误，请检查网络连接后重试。",
+    "cloneError": "克隆失败：{{error}}",
+    "remoteHint": "私有仓库请在上方选择认证方式",
+    "credentialsTitle": "凭据（可选，用于私有仓库）",
+    "authMethod": "认证方式",
+    "authNone": "无（公开仓库）",
+    "authGithubToken": "个人访问令牌 (PAT)",
+    "authGitlabToken": "访问令牌 (Access Token)",
+    "authUserPass": "用户名和密码",
+    "username": "用户名",
+    "password": "密码",
+    "githubTokenPlaceholder": "ghp_xxxxxxxxxxxx",
+    "gitlabTokenPlaceholder": "glpat-xxxxxxxxxxxx",
+    "githubTokenHint": "在 GitHub → Settings → Developer settings → Personal access tokens 生成",
+    "gitlabTokenHint": "在 GitLab → Preferences → Access Tokens 生成"
+  },
+  "review": {
+    "title": "代码审查",
+    "startReview": "开始审查",
+    "reviewInProgress": "审查进行中"
+  },
+  "history": {
+    "title": "审查历史",
+    "loading": "加载中...",
+    "noReviews": "还没有审查记录。",
+    "unknown": "未知"
+  },
+  "settings": {
+    "title": "设置",
+    "general": "常规",
+    "advanced": "高级"
+  },
+  "learning": {
+    "title": "学习中心",
+    "description": "全栈知识库与常见问题解析",
+    "searchPlaceholder": "搜索主题...",
+    "refresh": "刷新",
+    "loading": "加载中...",
+    "categories": {
+      "security": "安全性",
+      "performance": "性能优化",
+      "architecture": "架构设计",
+      "type-safety": "类型安全",
+      "code-quality": "代码质量",
+      "complexity": "复杂度",
+      "robustness": "健壮性"
+    },
+    "fullstackTips": "全栈提示",
+    "readMore": "阅读更多"
+  }
+}

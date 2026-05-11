@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="230" fill="url(#bg)"/>
+  <!-- Eye outline — larger -->
+  <path d="M60 512 Q512 150 964 512 Q512 874 60 512 Z" fill="none" stroke="url(#eye)" stroke-width="58"/>
+  <!-- Iris — larger -->
+  <circle cx="512" cy="512" r="230" fill="none" stroke="url(#eye)" stroke-width="55"/>
+  <!-- Code symbols </> in center -->
+  <!-- < bracket -->
+  <polyline points="450,435 375,512 450,589" fill="none" stroke="#a78bfa" stroke-width="52" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- / slash -->
+  <line x1="545" y1="422" x2="488" y2="602" stroke="#a78bfa" stroke-width="52" stroke-linecap="round"/>
+  <!-- > bracket -->
+  <polyline points="574,435 649,512 574,589" fill="none" stroke="#a78bfa" stroke-width="52" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

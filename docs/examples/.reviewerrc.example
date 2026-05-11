@@ -1,0 +1,23 @@
+{
+  "ignore": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/dist/**",
+    "**/build/**"
+  ],
+  "focus": [
+    "security",
+    "performance",
+    "type-safety"
+  ],
+  "customPrompts": {
+    "security": "Pay special attention to SQL injection, XSS, and authentication issues.",
+    "performance": "Check for N+1 queries, unnecessary re-renders, and memory leaks.",
+    "architecture": "Ensure proper separation of concerns and adherence to SOLID principles."
+  },
+  "rules": {
+    "maxFunctionLength": 50,
+    "maxFileLength": 300,
+    "requireTests": true
+  }
+}

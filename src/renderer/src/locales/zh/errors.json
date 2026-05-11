@@ -1,0 +1,48 @@
+{
+  "network": {
+    "connectionFailed": "连接失败，请检查网络。",
+    "timeout": "请求超时，请重试。",
+    "serverError": "服务器错误，请稍后重试。"
+  },
+  "llm": {
+    "invalidApiKey": "API 密钥无效，请检查设置。",
+    "rateLimitExceeded": "请求频率超限，请稍后重试。",
+    "modelNotAvailable": "模型不可用，请选择其他模型。",
+    "requestFailed": "LLM 请求失败：{{message}}"
+  },
+  "git": {
+    "notARepository": "不是 Git 仓库。",
+    "noCommits": "未找到提交记录。",
+    "invalidBranch": "无效的分支名称。",
+    "diffFailed": "获取 Git Diff 失败：{{message}}"
+  },
+  "project": {
+    "notFound": "项目未找到。",
+    "alreadyExists": "项目已存在。",
+    "invalidPath": "无效的项目路径。",
+    "addFailed": "添加项目失败：{{message}}",
+    "deleteFailed": "删除项目失败：{{message}}"
+  },
+  "review": {
+    "startFailed": "启动审查失败：{{message}}",
+    "noChanges": "没有可审查的更改。",
+    "invalidConfig": "审查配置无效。",
+    "saveFailed": "保存审查结果失败：{{message}}"
+  },
+  "file": {
+    "notFound": "文件未找到：{{path}}",
+    "readFailed": "读取文件失败：{{message}}",
+    "writeFailed": "写入文件失败：{{message}}"
+  },
+  "database": {
+    "connectionFailed": "数据库连接失败。",
+    "queryFailed": "数据库查询失败：{{message}}"
+  },
+  "validation": {
+    "required": "此字段为必填项。",
+    "invalidFormat": "格式无效。",
+    "tooLong": "值过长。",
+    "tooShort": "值过短。"
+  },
+  "unknown": "发生未知错误：{{message}}"
+}

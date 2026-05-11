@@ -1,0 +1,48 @@
+{
+  "network": {
+    "connectionFailed": "Connection failed. Please check your network.",
+    "timeout": "Request timeout. Please try again.",
+    "serverError": "Server error. Please try again later."
+  },
+  "llm": {
+    "invalidApiKey": "Invalid API key. Please check your settings.",
+    "rateLimitExceeded": "Rate limit exceeded. Please try again later.",
+    "modelNotAvailable": "Model not available. Please select another model.",
+    "requestFailed": "LLM request failed: {{message}}"
+  },
+  "git": {
+    "notARepository": "Not a git repository.",
+    "noCommits": "No commits found.",
+    "invalidBranch": "Invalid branch name.",
+    "diffFailed": "Failed to get git diff: {{message}}"
+  },
+  "project": {
+    "notFound": "Project not found.",
+    "alreadyExists": "Project already exists.",
+    "invalidPath": "Invalid project path.",
+    "addFailed": "Failed to add project: {{message}}",
+    "deleteFailed": "Failed to delete project: {{message}}"
+  },
+  "review": {
+    "startFailed": "Failed to start review: {{message}}",
+    "noChanges": "No changes to review.",
+    "invalidConfig": "Invalid review configuration.",
+    "saveFailed": "Failed to save review results: {{message}}"
+  },
+  "file": {
+    "notFound": "File not found: {{path}}",
+    "readFailed": "Failed to read file: {{message}}",
+    "writeFailed": "Failed to write file: {{message}}"
+  },
+  "database": {
+    "connectionFailed": "Database connection failed.",
+    "queryFailed": "Database query failed: {{message}}"
+  },
+  "validation": {
+    "required": "This field is required.",
+    "invalidFormat": "Invalid format.",
+    "tooLong": "Value is too long.",
+    "tooShort": "Value is too short."
+  },
+  "unknown": "An unknown error occurred: {{message}}"
+}

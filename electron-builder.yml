@@ -1,0 +1,65 @@
+appId: com.code-reviewer.app
+productName: Code Reviewer
+copyright: Copyright © 2024-2026
+
+directories:
+  buildResources: build
+  output: dist
+
+files:
+  - out/**/*
+  - resources/**/*
+  - "!node_modules/**/*.{md,ts,map}"
+
+asarUnpack:
+  - resources/**
+  - node_modules/better-sqlite3/**
+
+mac:
+  category: public.app-category.developer-tools
+  icon: build/icon.icns
+  hardenedRuntime: true
+  gatekeeperAssess: false
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+    - target: zip
+      arch:
+        - x64
+        - arm64
+
+dmg:
+  artifactName: "${productName}-${version}-mac-${arch}.${ext}"
+  contents:
+    - x: 130
+      y: 220
+    - x: 410
+      y: 220
+      type: link
+      path: /Applications
+
+win:
+  icon: build/icon.png
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+  artifactName: "${productName}-${version}-win-setup.${ext}"
+
+portable:
+  artifactName: "${productName}-${version}-win-portable.${ext}"
+
+publish:
+  provider: generic
+  url: ""

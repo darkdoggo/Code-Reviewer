@@ -1,0 +1,38 @@
+{
+  "title": "Settings",
+  "llm": {
+    "title": "LLM Configuration",
+    "provider": "Provider",
+    "model": "Model",
+    "apiKey": "API Key",
+    "baseUrl": "Base URL",
+    "baseUrlHint": "(optional proxy)",
+    "temperature": "Temperature",
+    "maxTokens": "Max Tokens",
+    "testConnection": "Test Connection",
+    "connected": "Connected",
+    "outputLanguage": "Output Language",
+    "outputLanguageHint": "Language for LLM review output",
+    "fetchModels": "Fetch Models",
+    "remoteModelsLoaded": "{{count}} models loaded from API",
+    "noModelsFound": "No models found. Please check your API key and base URL.",
+    "fetchModelsFailed": "Failed to fetch models. Please check your connection.",
+    "mustFetchModels": "Please fetch available models first by clicking 'Fetch Models'.",
+    "clickToFetch": "Click 'Fetch Models' to load available models"
+  },
+  "ui": {
+    "title": "Interface",
+    "theme": "Theme",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "diffMode": "Diff Mode",
+    "diffUnified": "Unified",
+    "diffSplit": "Split"
+  },
+  "save": "Save Settings",
+  "saveSuccess": "Settings saved successfully",
+  "loading": "Loading...",
+  "restartApp": "Restart Application",
+  "restartHint": "Restart the app to resolve issues or apply changes"
+}
